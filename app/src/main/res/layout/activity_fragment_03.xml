@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#1976D2">
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="23dp"
+    android:orientation="vertical"
+    tools:context=".Fragment_03">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textStyle="bold"
+        android:text="@string/indore"
+        android:gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="302dp"
+        android:contentDescription="@string/todo"
+        android:scaleType="centerInside"
+        android:src="@drawable/indore" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="@string/indore_has_been_selected_as_one_of_the_100_indian_cities_to_be_developed_as_a_smart_city_under_the_smart_cities_mission_it_also_qualified_the_first_round_of_smart_cities_mission_and_was_selected_as_one_of_the_first_twenty_cities_to_be_developed_as_smart_cities_indore_has_been_part_of_swachh_survekshan_since_its_inception_and_had_ranked_25th_in_2016_it_has_been_ranked_as_india_s_cleanest_city_four_years_in_a_row_as_per_the_swachh_survekshan_for_the_years_2017_2018_2019_and_2020"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="23dp"
+        android:layout_height="wrap_content"
+        android:textColor="#7B1FA2"
+        android:textStyle="bold"
+        android:text="@string/timing_to_visit_12_00_to_5_00" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="12dp"
+        android:layout_height="wrap_content"
+        android:textColor="#388E3C"
+        android:textStyle="bold"
+        android:text="@string/best_hotel" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_marginTop="9dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_weight="0.5"
+            android:textStyle="bold"
+            android:text="@string/indore_marriott_hotel" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg"
+            android:layout_weight="0.5"
+            android:text="@string/book_now" />
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

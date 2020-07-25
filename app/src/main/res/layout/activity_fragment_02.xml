@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#1976D2">
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="23dp"
+        android:orientation="vertical"
+        tools:context=".Fragment_02">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textStyle="bold"
+            android:text="@string/gwalior"
+            android:gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="302dp"
+            android:contentDescription="@string/todo"
+            android:scaleType="centerInside"
+            android:src="@drawable/gwalior" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="@string/gwalior_was_the_winter_capital_of_the_state_of_madhya_bharat_which_later_became_a_part_of_the_larger_state_of_madhya_pradesh_prior_to_indian_independence_on_15_august_1947_gwalior_remained_a_princely_state_of_the_british_raj_with_the_scindia_as_the_local_rulers_high_rocky_hills_surround_the_city_from_all_sides_on_the_north_it_just_forms_the_border_of_the_ganga_yamuna_drainage_basin_the_city_however_is_situated_in_the_valley_between_the_beautiful_hills"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="23dp"
+            android:layout_height="wrap_content"
+            android:textColor="#7B1FA2"
+            android:textStyle="bold"
+            android:text="@string/timing_to_visit_12_00_to_5_00" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="12dp"
+            android:layout_height="wrap_content"
+            android:textColor="#388E3C"
+            android:textStyle="bold"
+            android:text="@string/best_hotel" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_marginTop="9dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_weight="0.5"
+                android:textStyle="bold"
+                android:text="@string/taj_usha_kiran_palace_gwalior" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/bg"
+                android:layout_weight="0.5"
+                android:text="@string/book_now" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

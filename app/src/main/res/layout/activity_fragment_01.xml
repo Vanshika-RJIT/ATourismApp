@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#1976D2">
+
+
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="23dp"
+        android:orientation="vertical"
+
+        tools:context=".Fragment_01">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textStyle="bold"
+            android:text="@string/bhopal"
+            android:gravity="center_horizontal" />
+        <ImageView
+            android:layout_width="381dp"
+            android:layout_height="282dp"
+            android:src="@drawable/bhopal"
+
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="@string/bhopal_houses_various_educational_and_research_institutions_and_installations_of_national_importance_including_isro_s_master_control_facility_7_bhel_and_ampri_bhopal_is_home_to_the_largest_number_of_institutes_of_national_importance_in_india_namely_iiser_manit_spa_aiims_nliu_iifm_and_iiit_currently_functioning_from_a_temporary_campus_inside_manit" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="23dp"
+            android:layout_height="wrap_content"
+            android:textColor="#7B1FA2"
+            android:textStyle="bold"
+            android:text="@string/timing_to_visit_12_00_to_5_00" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="12dp"
+            android:layout_height="wrap_content"
+            android:textColor="#388E3C"
+            android:textStyle="bold"
+            android:text="@string/best_hotel" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="12dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_weight="0.5"
+                android:textStyle="bold"
+                android:text="@string/jehan_numa_palace_hotel" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/bg"
+                android:layout_weight="0.5"
+                android:text="@string/book_now" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

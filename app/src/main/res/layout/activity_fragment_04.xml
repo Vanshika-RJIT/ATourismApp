@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+   >
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="23dp"
+        android:orientation="vertical"
+        android:background="#1976D2"
+        tools:context=".Fragment_04">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textStyle="bold"
+            android:text="@string/mumbai"
+            android:gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="282dp"
+            android:contentDescription="@string/todo"
+            android:scaleType="centerInside"
+            android:src="@drawable/mumbai" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="@string/the_name_mumbai_is_derived_from_mumb_or_mah_amb_the_name_of_the_patron_goddess_kuladevata_mumbadevi_of_the_native_koli_community_and_meaning_mother_in_the_marathi_language_which_is_the_mother_tongue_of_the_koli_people_and_the_official_language_of_maharashtra_the_koli_people_originated_in_kathiawad_and_central_gujarat_and_according_to_some_sources_they_brought_their_goddess_mumba_with_them_from_kathiawad_gujarat_where_she_is_still_worshipped"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="23dp"
+            android:layout_height="wrap_content"
+            android:textColor="#7B1FA2"
+            android:textStyle="bold"
+            android:text="@string/timing_to_visit_12_00_to_5_00" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="12dp"
+            android:layout_height="wrap_content"
+            android:textColor="#388E3C"
+            android:textStyle="bold"
+            android:text="@string/best_hotel" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_marginTop="9dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_weight="0.5"
+                android:textStyle="bold"
+                android:text="@string/the_taj_mahal_palace" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/bg"
+                android:layout_weight="0.5"
+                android:text="@string/book_now" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
